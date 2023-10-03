@@ -1,0 +1,150 @@
+.NET (Microsoft)
+Not a language or OS
+1)Framework which supports 60+ languages
+Framework means a set of rules followed for working with multiple languages for creating
+multiple types of apps.
+
+2) Creating web apps, console apps,windows apps, file handling,windows services,web services,ado.net etc.
+
+   windows service:spy service to check the files/folders created/edited/deleted/moved on  a particular path or on the whole system.
+
+   Web service:google search,bingo,gmail,maps,translate,drive 
+
+ado.net----connectivity bridge used to bring the database server and application together to work.
+
+	drivers----- odbc ----my sql----
+		     home drivers---oracle/sql server/
+	
+	set of libraries----
+
+
+
+		VS 2022(Professional Edition)
+IDE----Integrated Develoment Environment(Software) becoz it will install the framework.
+			software we interact with framework.
+
+.NET
+1) Windows OS----.NET Framework
+2) (Win/Unix/Android/Mac)All OS-----.NET Core Framework
+
+template----->format
+console app
+windows app
+web app
+
+2000----> .net framework---windows
+
+5 yrs
+2018/2019--- .net core was released
+
+C vs C++/C#				
+Procedural    Object Oriented  
+C#.Net
+F#.NET
+J#.NET
+VB.NET
+Python.NET
+
+		C/C++
+	C---> int-->2 bytes
+	C++ ----> int--->4 bytes
+
+60 langauges---> data types are common-----
+int----4 bytes
+
+1)Data Types
+2)Class
+3)Object
+4)Syntax
+5)Keywords
+6)Operators
+7)conditional statements and loops
+8) arrays
+
+		App---->
+	12 functionalities 
+C#    J#   F#    VB     C++    C Python ....
+12 functionalities
+2	2   2     2	2      2   2
+Use it  in C#
+
+
+        bringing together--- Integration & work together
+
+datatypes
+Specifications---Rules
+
+Cross Language Integration is possible due to CTS.
+
+#include<stdio.h>
+#include<conio.h>
+
+FCL/BCL(Framework Class Libraries/Base Class Libraries)---Common to all 60 languages
+System
+System.Data
+System.Data.SqlClient
+
+
+namespaces
+
+One library are there multiple classes,struct,enums,events,delegates.
+namespace----logical grouping of related classes,struct,enums,events,delegates.
+1 class/1 struct----- multiple methods,constants,variables etc.
+	
+
+	         C#		VB.NET 		F#		J#
+-------------------------------------------------------------------------------			
+		.cs                .vb          .fs              .js
+Compiler:     csc.exe               vbc.exe          fsc.exe              jsc.exe
+(Language Specific)
+	     
+Converts to:				MSIL------->CLR---->
+
+------------------------------------
+
+Compile----Build(csc program.cs)
+Execute---- Start(program) /build & execute
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
