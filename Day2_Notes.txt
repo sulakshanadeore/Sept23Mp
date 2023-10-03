@@ -1,0 +1,74 @@
+
+	
+		Class----- Container/Template which cah hold functions, methods,properties.
+
+
+		Object---- is a xerox copy of the class but not actually.
+
+Console App---> .exe
+
+
+	App    WebSite
+
+        OS	Browser
+Console App
+Windows App
+Web App
+
+Working with Datatypes
+Conversion
+
+Programming  Constructs
+Conditional
+Loop
+
+OOPs
+
+
+**code snippets
+readymade code block ----- shortcut key
+------------------------------------
+
+Methods:
+1)static---
+a)are methods that have static keyword in the declaration/signature of the method.
+b)They can be directly called on the class.
+
+
+
+2)non-static/instance----
+-------------------------------------------------------
+
+Why OOPs
+Procedural Paradigm-----> only procedure/methods and no entity reference is available so
+dealing with real time scenarios could not be handled.
+
+Entity handling can be done using class and methods/behavior related to that entity can also be written in the class along with the attributes/properties of the entity.
+
+Class --- blueprint/template which represents the entity.
+
+Each object created out of the class represents one instance of the entity.
+
+Object is instance of the class.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+		
