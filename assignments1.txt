@@ -1,0 +1,49 @@
+1)Write a C# Sharp program to swap two numbers. 
+Input the First Number : 5
+Input the Second Number : 6
+Expected Output:
+After Swapping :
+First Number : 6
+Second Number : 5
+
+2)Write a C# Sharp program to print the output of multiplication of three numbers which will be entered by the user. 
+Input the first number to multiply: 2
+Input the second number to multiply: 3
+Input the third number to multiply: 6
+Expected Output:
+2 x 3 x 6 = 36
+
+3) Write a C# Sharp program to print on screen the output of adding, subtracting, multiplying and dividing of two numbers which will be entered by the user. 
+Input the first number: 25
+Input the second number: 4
+Expected Output:
+25 + 4 = 29
+25 - 4 = 21
+25 x 4 = 100
+25 / 4 = 6
+25 mod 4 = 1
+
+4)Write a C# Sharp program to that takes three numbers(x,y,z) as input and print the output of (x+y).z and x.y + y.z. 
+Test Data:
+Enter first number - 5
+Enter second number - 6
+Enter third number - 7
+Expected Output:
+Result of specified numbers 5, 6 and 7, (x+y).z is 77 and x.y + y.z is 72
+5)Write a C# program to that takes a number as input and display it four times in a row (separated by blank spaces), and then four times in the next row, with no separation. You should do it two times: Use Console. Write and then use {0}. 
+Test Data:
+Enter a digit: 25
+Expected Output:
+25 25 25 25
+25252525
+25 25 25 25
+25252525
+8)Write a C# program to convert from celsius degrees to Kelvin and Fahrenheit. 
+Test Data:
+Enter the amount of celsius: 30
+Expected Output:
+Kelvin = 303
+Fahrenheit = 86
+9)Write a C# program to compute the sum of two given integers, if two values are equal then return the triple of their sum. 
+10)Write a C# program to get the absolute value of the difference between two given numbers. Return double the absolute value of the difference if the first number is greater than second number. 
+11)C# program to convert entered days into years, weeks, and days 
