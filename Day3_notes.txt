@@ -1,0 +1,84 @@
+
+		OOP
+-----------------------------------
+Real time scenarios/ Real time projects
+
+SRP----Single Responsibility Principle-to be followed when working with oops.
+1) Class---Entity---> inside the entity.
+2) Object---instance---represents the entity which can hold different values at each point of time.(instance)
+
+
+Pillars of OOP's 
+----------------
+1) Major Pillars
+  a)Abstraction:
+Abstraction is When ever the entity is needs to hide the internal details of the working from the outer world.
+Inner working details are hidden of the process in operation.
+a) Heat food in microwave b) Starting a bike  c)Grinding food in mixer grinder
+Access modifiers-----> public ,private ,internal ,protected,protected internal
+  1) Data Abstraction--access modifiers
+  2) Process Abstraction--internal implementation
+
+
+b)Encapsulation: We encapsulate the  data under a single unit.(Class/struct)
+Encapsulation is wrapping up the data under a single unit, it has a mechanism that binds
+together code and data.
+It gives a Protective  shield, protects the code and the data from outside world.
+
+a)Medicine Capsule
+
+Properties and Methods
+
+3)Polymorphism: Poly--- many, morph-----> many forms of a single method.
+Multiple forms of a single method with different types of parameters, sequence of parameters,number of parameters and scope of the method.
+
+Signature: return type  | parameter/s
+		void      
+		int
+Types of parameters/Sequence of parameters/Number of parameters(Atleast one of them)
+Add
+		Add	 int,int
+		Add    	int,float,int
+		Add	float,int
+		Add     int,float
+		Add	float,float
+		Add	double,float
+		Add	float,double
+		Add	double,double
+
+Single Class/Scope--- all the above add method together----> Overloading
+-------------------------------------------------------------------------
+
+Overriding: 1) Inheritance is must
+	    2) Method signature must be same
+//Parent--base class
+class Employee
+{
+CalculateSalary(int bs, DateTime joinDate)
+
+
+}
+//Manager class CalculateSalary() is overriding Employee class CalculateSalary()
+//Child----Derived class
+
+class Manager:Employee
+{
+CalculateSalary(int bs, DateTime joinDate)
+
+}
+4)Inheritance: means inheriting/able to reuse something from the parent/base class in the derived class.
+
+Single Level Inheritance
+Multiple Inheritance is not supported directly, but it is achieved by interfaces.
+Why multiple inheritance is not supported?
+
+
+
+2) Minor Pillars
+Type Casting
+Persistence
+Concurrency
+
+
+
+
