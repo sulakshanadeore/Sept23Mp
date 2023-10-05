@@ -1,120 +1,116 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Versioning;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOPsDemo
+namespace ArraysDemo
 {
     internal class Program
     {
-        static void swapNos(ref int i,ref int j)
-        {            int temp = i;
-             i = j; j = temp;
-              Console.WriteLine($"Now the value of i={i}");
-            Console.WriteLine($"Now the value of j={j}");
-        }
-
-        static int CalculateValues(int i, int j, out int subans, out int divans)
+        static void Main(string[] args)
         {
-          int  addans = i + j;
-            if (j != 0)
+            //first way
+            int[] marks = { 10, 10, 20, 21 };
+            int[] marks3;
+            int arrsize=marks.Length;
+            for (int i = 0; i < arrsize; i++)
             {
-                subans = i - j;
-                divans = i / j;
+                Console.WriteLine(marks[i]);
             }
-            else
+            Console.WriteLine("---------------");
+            //second way
+            int[] marks1 = new int[4] { 100, 110, 120, 121 };
+            int[] marks2 = new int[4];
+            //     marks2[0] = 31;
+            for (int i = 0; i < marks.Length; i++)
             {
-                subans = 0;
-                divans = 0;
+                Console.WriteLine(marks1[i]);
             }
-            return addans;
+            Console.WriteLine("===============");
+            //Third way
+            Array a = Array.CreateInstance(typeof(int), 4);
+            a.SetValue(1000, 0);
+            //   object o=a.GetValue(0);
+            int v = (int)a.GetValue(0);
+            Console.WriteLine($"The value at index 0={v}");
+            Console.WriteLine("*********************");
+            int[] oneD = { 19, 20, 21, 22 };
+            PrintFirstValue(oneD);
+
+            int[,] twoD = { { 10, 20 }, { 30, 40 } };
+            PrintFirstValue(twoD);
+            int[,,] Td = new int[2, 2, 3] {
+                                { {1,2, 3 }, { 4, 5, 6 } },
+                                { { 7, 8, 9 }, { 10, 11, 12 } }
+            };
+            PrintFirstValue(Td);
+            //int[,,] td1 = new int[1, 2, 2] {
+            //            { {1,2 },{ 3,4} }
+            //};
+
+            //int[,,] td2 = new int[2, 2, 2] {
+            //{ { 1,2},{3,4 } },
+            //{ {5,6 },{7,8 } }
+            //};
+            // //first 2 means --2 rows
+            ////second 2 means--2 sets of elements
+            ////thrid 2 means ---2 values
+            Console.WriteLine("---------------------");
+            int[] arr = new int[] {10,11,23,34,-10,-110,0 };
+            foreach (int i in arr) {
+                Console.WriteLine(i);
+            }
+            Console.WriteLine("-----------");
+            string[] names = new string[] {"Amit","Sumit","Suma","Roma","Komal" };
+            
+            foreach (var item in names)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine("Object array");
+            object[] obj = new object[] {1,"Suma",'A',45.55f,3433.34d };
+            foreach (var item in obj) {
+                Console.WriteLine(item);
+            }
+
+            //Implicitly typed local variable-2.0 framework
+            //cannot be reinstantiated by giving different types and also cannot be used 
+            //as parameter type
+            var p = "Hello";
+            Console.WriteLine(p);
+            var i = 67.8755d;
+            var d1 = new DateTime(2023, 04, 10);
+            //Framework---3.5 and above
+            //can be reinstantiated by giving different types and also can be used 
+            //as parameter type
+            dynamic myd = "Hello";
+
+            Console.WriteLine(myd);//Hello
+            myd = 4566;
+            Console.WriteLine(myd);//4566
 
 
-        }
 
-                static void Calculate(int i, int j,out int addans,out int subans,out int divans)
-        {
-            addans = i + j;
-            if (j != 0)
-            {
-                subans = i - j;
-                divans = i / j;
-            }
-            else
-            {
-                subans = 0;
-                divans = 0;
-            }
-           }
-              static void Main(string[] args)
-        {  
-            //BoxingUnboxing();
-            //CallByValueReferenceOutParaDemo();
 
             Console.Read();
 
-
-
         }
-        //refactoring the code
-        private static void CallByValueReferenceOutParaDemo()
+
+
+        
+
+        static void PrintFirstValue(Array a) 
         {
-            int a = 10, b = 20;
-            swapNos(ref a, ref b);
-            Console.WriteLine($"Now the value of a={a}");
-            Console.WriteLine($"Now the value of b={b}");
-            int addanswer;
-            Calculate(a, b, out addanswer, out int subanswer, out int divanswer);
-            Console.WriteLine(addanswer);
-            Console.WriteLine(subanswer);
-            Console.WriteLine(divanswer);
-            Console.WriteLine("-------------------");
-            addanswer = CalculateValues(a, b, out int subans, out int divsionans);
-            Console.WriteLine(addanswer);
-            Console.WriteLine(divsionans);
-            Console.WriteLine(subans);
+            Console.WriteLine(a.Rank);
+            int[] indexers=new int[a.Rank];//by default 0 index value will be considered
+            
+
+            
+            Console.WriteLine($"First Value={a.GetValue(indexers)}");
+        
         }
 
-        private static void BoxingUnboxing()
-        {
-            //Boxing & Unboxing
-            int counter = 10;
-            float i;
-            double d1;
-            decimal d2;
-            object o;
-            //Boxing
-            //(10)
-            o = counter;//bigger type is holding the value of smaller type
-                        //no data loss
-                        //value type(int,float,double,decimal--struct/enums)
-                        //only value types can be boxed 
-                        //Boxing means putting smaller type into bigger type.
-            Console.WriteLine("The data type of o=" + o.GetType());
-            //Unboxing means bringing it to its original type, by casting it.
-            counter = (int)o;
-            int a = counter + 100;
-            Console.WriteLine($"The addition ={a}");
-            Console.WriteLine("--------------");
-
-            string s = "Hello";
-            Console.WriteLine(s);
-            o = s;
-            Console.WriteLine(o);
-            Console.WriteLine(s);
-            //Casting
-            string s1 = (string)o;
-            Console.WriteLine(s1);
-
-
-
-            //object ---- biggest in the hierarchy of data types
-            //all data types inherit from object
-            //int,float etc are struct.
-            //Struct/enum we call it value types. and value types on stack.
-            //everything else is reference type.
-            //reference type are stored on the heap
-        }
     }
 }
