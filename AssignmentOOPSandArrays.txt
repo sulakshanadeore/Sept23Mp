@@ -1,0 +1,6 @@
+1)Write a program in C# Sharp to find the sum of all elements of the array.
+2)create a class products and write properties for productid,productname,price,UnitOfMeasurement,Qty
+3)create objects of class for 5 products
+4) create a array of products class and take 5 products in the array to accept and display data.
+5) Make changes in the above product class and generate a productid automatically
+(Hint: Use static variable)
