@@ -1,0 +1,62 @@
+
+			Code--->ConsoleApp
+
+	Same code again ---copy and paste  code from one app to another app
+So to avoid this, we have to write the code at a place, in a file where it could be used by multiple apps.
+Which is that file? where reuse  the code.
+Project template of type---->Class Libary
+1) 
+client 1		client 2
+Console App            ConsoleApp       
+
+              class library
+
+2) Console app(.exe)		windows app(.exe)	web app(.dll)
+compile(.exe)                   windows(.exe)           web(.dll)----> OS--->browser
+							exe calls the dll
+
+			class library(.dll)
+		the code will be written in the class library.
+
+You can Add multiple projects to a single solution.
+---------------------------------------------------------
+Any project in .net is called as assembly.
+******************************************
+Assemblies: Private 
+	Public/Shared
+
+One assembly there could be multiple files/classes always logically related to each other.
+--------------------------------------------------------------------
+Whenever we want to use the code of our class library in the app, the class should be public.
+
+Sequence of build/compilation is decided by project dependencies.
+App Depends on Libary
+    ********** 
+
+Solution Explorer--->Right click--->Project Dependencies 
+---------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
