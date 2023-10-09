@@ -1,0 +1,19 @@
+create a class Student
+Write a default constructor with Student
+Write a parameterised constructor in Student class with Studid,Studname as parameters
+Write one more parameterised constructor in Student class with Studid,Studname,Age as parameters
+
+Write 3 properties Maths,Science and English.
+
+Write a method Calculate() which will calculate total marks.
+
+Now create a Employee Class
+Now inherit Student Class in the Employee Class.
+
+Write properties for empid,ename,sal in the Employee Class
+
+Write Calculate() method in Employee Class, as calculate salary as below:
+1) if sal>10000 and sal<20000, add 10% as hra,5% as da and 10% as special allowance.
+2) if sal>20000 and sal<30000, add 12% as hra,7% as da and 12% as special allowance.
+
+

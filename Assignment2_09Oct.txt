@@ -1,0 +1,8 @@
+Create a class Bank
+1) Add a Deposit method with these parameters:
+a) float amt, datetime depositDate,string branchname,long AccountNo
+b) long AccountNo,float amt, datetime depositDate,string branchname
+c)long Accno,float amt,datetime depositDate
+
+2) Add a method withdraw
+a) float amt, datetime depositDate,string branchname,long AccountNo
