@@ -1,0 +1,48 @@
+Delegates
+---------
+Middle Person who is working on behalf of someone.
+
+We create a delegate that works on behalf of the method.
+
+1) Delegate should have same signature as that of the method.
+
+public void AddEmployee(int empno,string ename,int age);
+
+public delegate void AddingEmployee(int empno,string ename,int age);
+
+Use of Delegates:
+1) Event Handling
+2) Mutli-threading
+3) Call backs
+4)Language Integrated Query
+--------------------------------------------------------------------
+	userid:uuuuu
+        password:****
+						      userid & password is validated
+	Login button---->click-(delegate called--->method)-->code executes
+	                 event
+			double click
+			hover
+			right click
+			left click
+			key press
+
+
+	Multicast   	vs   	UniCast 		 
+1)      return type             can be anything
+	void
+2)      multiple methods	only one method called
+called in  a sequence
+3)    use this when u want       use this when only single operation needs to be done		a sequence of operations to be
+performed on the set of inputs
+given
+
+
+
+
+
+
+
+
+
+
