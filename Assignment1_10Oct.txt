@@ -26,5 +26,10 @@ Write a delegate,method and use event.
 4) Write a method to MakeFirstCharacterUppecase of the string recieved and print the new string.
 Write delegate,method and use event.
 
+5) 5) Create a class Employee, with Leaves as a property.
+Initialize leaves property to 10.
+When the employee applies for a leave, accept the number of days, leave is requested.
+Deduct the required leaves from the initialized leaves and  show the balance leaves.
+Use Delegates and Events here.
 
 
