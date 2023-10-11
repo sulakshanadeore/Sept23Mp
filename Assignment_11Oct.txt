@@ -1,0 +1,21 @@
+
+1) 
+a)create a arraylist and add 10 elements into it.
+b)print the arraylist.
+c)find the element existing in the arraylist and remove the element
+d)Copy the elements of arraylist to array.
+e)remove the elements which are not ints from the array.
+f)Once u have a int array sort and reverse the array.
+
+2)
+a) create a stack and push, pop and pop elements in the stack.print the stack after each operation
+b) copy the stack to another stack. print the copied stack.
+c) clear the original stack.
+
+3) Do the above operations on the queue.
+
+4) Create a hash table and add and remove elements from the hash table.
+Copy the contents of one hashtable to another hashtable.
+print both the hash tables.
+
+
