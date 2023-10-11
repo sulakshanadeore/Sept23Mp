@@ -1,0 +1,85 @@
+
+Arrays---System
+
+	Collections
+
+Data Structures: Stack, Queue,Linked List
+
+2 types : Non Generic
+	Generic
+
+
+
+using System.Collections.Generic;
+List----integers,floats,Employees,Students
+If the list is of one of the above types
+when we want a collection of ONE particular type, then we say it is a GENERIC COLLECTION.
+List of integers-----> only integers can be there in the list
+*************************************************************
+x floats
+x employees
+X boolean
+any other type
+
+-------------------------------------------------------------------
+using System.Collections;
+when we want a collection of any  type, then we say it is a NON-GENERIC COLLECTION.
+List of anything-----(object)----
+* float--y
+*int--y
+*double--y
+*boolean--y
+anytype---y
+
+
+    c
+
+    float
+    int
+     employee
+teacher
+double
+bool
+
+
+compiler ----overload/overhead/more work on the compiler.
+Application will be slow.
+1) check whether the type exists
+2) Employee
+foreach(var item in c)
+{
+
+
+}
+    type safety
+---------------------------------------------------
+
+
+		Collections 
+**********************************************
+Interface: ICollection
+any class in Generic or NonGeneric inherits from ICollection.
+interface ICollection---- 
+ICollection:IEnumerable
+
+1)size -- dynamic
+2) Any collection can be converted to array.
+
+
+Clone---shallow copy----> A returns a new array containing elements into the another array
+copy----deep copy---> It copies the elements into another existing array.
+Create a array first and then copy to the array.
+copy vs clone
+1)copy has parameters, clone has no parameters
+2)copy doesn't require casting,clone requires casting
+3) copy has option of copying all or some elements, but clone copies everything
+4) copy can copy to a existing array, but clone creates copy on the go.
+
+
+
+
+
+
+
+
+
