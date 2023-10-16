@@ -1,0 +1,18 @@
+1) Create a class Smartphone
+ IMEI no
+ Name
+ Model
+ Price
+ 
+List<Smartphone> with  5 records
+sort the data/records based on the names.
+
+Use Icomparable, icomparer
+---------------------------------------------
+2) create 2 dictionary for the class and concat and intersect the dictionaries.
+------------------------------------------
+3)create a linked list of <int,smarphone> and add nodes to it for smarphones objects
+------------------------------------------------
+4) create a sorted set of smarphones and print the sorted set.
+------------------------------------------------
+
