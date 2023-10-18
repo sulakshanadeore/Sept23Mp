@@ -1,0 +1,11 @@
+1)Write a class employee using empno,ename,sal and deptno
+In the properties, write a validation to check empno and deptno not equal to zero.
+Also write validation for empname should not be null or empty
+Do exception handling for the above
+
+2) create a movies class using movieid,moviename,language.
+create a class customer to borrow the movie cd, having  with custid, borrowdate,movieid,returndate.
+Write a borrow method to issue the movie cd.
+The return date to be calculated 10 days added to the borrowDat
+Any movie cds not returned by users after 10 days should be added to a list. 
+write exception handling for all properties that they cannot be null except return date.
