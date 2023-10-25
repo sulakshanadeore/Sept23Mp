@@ -1,0 +1,57 @@
+Console App
+
+Menu------->Console App
+Menu
+----
+menu items will increase over time
+
+class Jobseeker{jobseeker}(10)
+
+class ProfDetails
+{
+
+}
+
+class Personal
+{
+int jobseekerid{get;set}
+}
+
+class academicdetails:JobSeeker
+{
+academic year, percentage, education
+}
+
+academic year percentage education
+1999		80	    10th(Pre University)
+2003            71          BE
+2005            72          ME
+
+
+class ManageAcademicDetails()
+{
+void AcceptDetails(academicdetails ad)
+{
+//save to the list
+
+}
+
+}
+
+
+}
+---------------------------------
+
+Main()
+{
+academicdetails d=new academicdetails{academic year=1999, percentage=80, education=10,jobseekerid=11}
+ManageAcademicDetails md=new ManageAcademicDetails();
+md.AcceptDetails(d);
+
+}
+
+AcademicDetails[] ad=new AcademicDetails[3];
+
+
+
+
