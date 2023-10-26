@@ -1,0 +1,254 @@
+	Agile 
+
+how software development is done? 
+how is the day of software developer?
+
+12 principles of Agile Manifesto?
+1) Customer Satisfaction
+2) Welcome Change---inevitable changes can come any point of time
+3) Deliver Working Software
+4) Motivated---team members should feel motivated for the job they are doing 
+5) Collaboration-- collaborate all of them(product owner,scrum master,developers,testers etc)
+6) Maintain Constant Pace
+7) Measure the software progress with the parameters defined.
+8) Self-organised team----self sufficient team and should not be dependent on other teams
+9) Simplicity--should be able to measure the work in a simple way.
+10) Monitoring-- good technical expertise,good programming practises, good design etc
+11) Review Work Regularly
+12) Face to face communication
+
+Software Development Methodology.
+Methodology/way
+It is a way of building software in  a incremental way in short iterations, usually
+ranging from 1 week to 4 weeks.
+
+This duration is different for different projects as per the work to be completed 
+during the tenure, this is called as "Sprint".
+
+
+Sprint Iterations:
+1)  Product Backlog + New Sprint
+2) Performance of the app tested
+3) User stories have been accepted, if not accepted then moved to the next iteration
+4) Defects have been fixed or postponed to next iteration.
+Defect Life cycle.
+a) New 
+b) Assigned
+c) Open
+d) Fixed
+e) Test
+f)Verified
+g)Closed
+h) Deferred/Late
+i)Duplicate
+j) Rejected
+h)Cannot be fixed
+j) Need more info
+k) not reproducible---platform mismatch, data mismatch,build mismatch
+
+
+
+
+
+
+The total duration of the project may be 6months, 8 months etc, but a small part in it
+to ensure that the software is working in the correct direction.
+
+To have a review of the work done/going on the agile is the most widely accepted 
+software development methodology.
+
+What are the phases in the Sprint?
+1)Define
+2)Code
+3)Integrate
+4)Test
+
+    Define the scope of the whole project
+
+Sprint:
+
+1) Class library with validations and create classes for Inserting,Updating,Deleting and Showing data from the list.(Only working with collections)
+
+A)
+a) create enums,classes,properties, etc
+b) console app--- menu and called and checked.
+
+B)Codewrite each code-- see whether that is working
+C)2/3 methods created -----bring them together(integrated)
+D)checking---test
+
+this cycle goes on for each and every module----job seeker & employer
+						login	
+						registration
+						etc
+
+
+Multiple developers in a team---> each developer works on the project---git to submit 
+his work and there it will be integrated.
+
+feedback loop
+-------------
+everyday a standup meeting happens for not more than 15 minutes where the jobs to be done 
+on that day are decided by the team. It is also called "daily scrum".
+who will do what?
+what will the individual in the team do
+what to do next
+when to finish the current work
+any issues/problems 
+
+
+
+	2 weeks-------15 jobs 
+10 working days--15 minutes each day
+1) J1,J2,J3 were  the jobs decided by the team.
+2) J3 spilled on the next day + J4,j5,j6----
+3)
+10 day
+
+publish first sprint on the server---stakeholders of the project,
+review:
+Lead developer
+owner
+Operations etc
+
+
+1) ScrumMaster--- he is the team leader and the facilitator who helps the team members
+to follow the agile practices so they can meet their commitments
+
+2) Product Owner: he is the one who drives the product from the business perspective.
+Responsible:
+1) defining requirements
+2) determine release date
+3) iteration planning and release planning meetings with scrum master
+4) get the jobs of higher priority done first by the team
+5) he represents the voice of the customer
+6) user stories-----> to see whether the software meets the definitions/criterias defined by the customer.
+
+Agile team size 5 to 9 members and average exp. 6 to 10 yrs
+
+3 to 4 developers
+1 tester
+1 technical lead
+1 product owner
+1 scrum master
+
+
+jrdevelopers
+jrtester
+
+
+One or more user stories in a sprint.
+Each userstory is planned on the basis of its backlog work,priority of the user story and size of the user story.
+
+ How many people we have
+how many hours we have--- points---1 point---8 hrs
+estimatedTime ActualTime
+how much time rquired to create a solution for the user story
+how many sub tasks are there in the story
+
+Each story should have 2 forms: target
+1) As a <UserRole> I want this <functionality> so that <business values>
+2) In order to achive <Business value> I want this <functionality>
+
+ As a admin I want login  so that I can authenticate the user
+ ------------------------------------------------------------------
+As a CEO I want to view the total sales to know the gross profit
+In order to know the total sales I want this Gross Sales Report
+--------------------------------------------------------------
+"done"
+1) all related code is checked in
+2)all unit test cases are  passesd
+3) all acceptance test cases passed
+4) help text is documented
+5) product owner has accepted the story.
+
+Acceptance testing----
+Customer
+-------------------------
+Release Planning/Release Phase planning
+
+Who are Involved in Release Planning:
+Scrum Master
+Product Owner
+Agile Team
+Stakeholders---customers,program managers, sme as advisors
+
+Purpose:
+Create a plan to deliver an increment to the product. It is done after every 2 to 3 months.
+
+Pre-requisites for planning the release:
+1) A ranked product backlog, managed by the product owner.
+Whatever features are taken to be release.
+2) Team's input about any technical challenges.
+3) Market and Business objective
+4) Any new product items are needed.
+
+
+Materials Required for planning the release:
+
+1. Posted Agenda
+2. flip charts, white boards, markers,Projectors etc
+3. Networking between computers
+4. Planning data:
+previous iteration/previous releases data
+Action plans of the previous release
+Features/Defects of previous release
+Organisational/Personal Calendars 
+Any other inputs from the team
+
+Output:
+1) Release Plan
+2) commitment from the team
+3) issues,concerns,dependencies,assumptions if any of the team
+4) Any suggestions from the team
+5)Presentation if the release,schedule of release etc
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
